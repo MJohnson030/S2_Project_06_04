@@ -22,16 +22,23 @@
  html {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: linear-gradient(-90deg, rgb(141, 216, 194) 15%,rgba(59, 128, 192, 0.849) 50%);
+    border-radius: 9px;
 }
+
   
  img  {
+   border-radius: 12px;
      box-shadow: #444;
  }
+
+img#photo_nine {
+  align: center;
+}
+
  nav {
     text-align: center;
     margin: 20px 0 0 ;
-    padding: 10px 0;
-    
+    padding: 10px 0; 
     }
 
 
@@ -39,6 +46,7 @@
       list-style: none;
       margin: 0 2px;
       padding: 0;
+      
     }
     
     nav li {
@@ -47,6 +55,7 @@
        background-color: rgba(74, 102, 226, 0.849);
        border-radius: 8px;
        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
+       border: 2.5px solid rgb(0, 0, 0);
     
     }
     
@@ -70,9 +79,11 @@
         color: #444;
         cursor: default;
       }
+
       p {
         vertical-align: baseline;
       }
+
       p {
           text-align: center;
           background-color: rgba(74, 102, 226, 0.849);
@@ -82,12 +93,15 @@
           background-repeat: repeat; 
           width: 1200px;
           box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
+          border: 2.5px solid rgb(0, 0, 0);
+    
           
       }
 
       h1 {
         color: rgb(85, 85, 207);
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
+        text-align: center;
         font-size: 40px;
       }
 
