@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: 
+   Date: 
+	
+   Filename: br_styles.css
+
+   
+*/
+
+/* html {
+    background-image: url("br_paper.png");
+    background-size: cover;
+} */
+
+ html {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(-90deg, rgb(141, 216, 194) 15%,rgba(59, 128, 192, 0.849) 50%);
+}
+  
+ img  {
+     box-shadow: #444;
+ }
+ nav {
+    text-align: center;
+    margin: 20px 0 0 ;
+    padding: 10px 0;
+    
+    }
+
+
+    nav ul{
+      list-style: none;
+      margin: 0 2px;
+      padding: 0;
+    }
+    
+    nav li {
+       display: inline;
+       padding: 20px 20px;
+       background-color: rgba(74, 102, 226, 0.849);
+       border-radius: 8px;
+       box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
+    
+    }
+    
+    nav a {
+      font-weight: normal;
+      padding: 10px 5px;
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+    }
+
+  
+      nav a:hover {
+        background-color: #555555;
+    
+
+      }
+       
+      nav a.active {
+        background-color: #fff;
+        color: #444;
+        cursor: default;
+      }
+      p {
+        vertical-align: baseline;
+      }
+      p {
+          text-align: center;
+          background-color: rgba(74, 102, 226, 0.849);
+          border-radius: 10px;
+          font-size: 20px;
+          color: rgb(255, 255, 255);
+          background-repeat: repeat; 
+          width: 1200px;
+          box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
+          
+      }
+
+      h1 {
+        color: rgb(85, 85, 207);
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-size: 40px;
+      }
+
