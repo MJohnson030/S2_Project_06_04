@@ -26,7 +26,11 @@ body {
   max-width: 960px;
   min-width: 640px;
   width: 90%;
+  background-color: rgb(109, 120, 129);
   text-align: center;
+  box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.63);
+  background-image: radial-gradient(  rgba(240, 245, 200, 0.253) 30%, rgb(253, 253, 253) 80%);
+  /* border: 2.5px solid rgb(0, 0, 0); */
 }
 
 body > header img#logo {
@@ -111,4 +115,5 @@ h1 {
   text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
   text-align: center;
   font-size: 40px;
+  Padding: 40px 10px 10px 10px;
 }
