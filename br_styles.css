@@ -10,98 +10,105 @@
    Date: 
 	
    Filename: br_styles.css
-
-   
 */
 
-/* html {
-    background-image: url("br_paper.png");
-    background-size: cover;
-} */
 
- html {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(-90deg, rgb(141, 216, 194) 15%,rgba(59, 128, 192, 0.849) 50%);
-    border-radius: 9px;
+/* HTML Styles */
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(-90deg, rgb(141, 216, 194) 15%, rgba(59, 128, 192, 0.849) 50%);
 }
 
-  
- img  {
-   border-radius: 12px;
-     box-shadow: #444;
- }
+
+/* Body Styles */
+body {
+  margin: 0px auto;
+  max-width: 960px;
+  min-width: 640px;
+  width: 90%;
+  text-align: center;
+}
+
+body > header img#logo {
+  display: block;
+  width: 100%;
+}
 
 img#photo_nine {
   align: center;
 }
 
- nav {
-    text-align: center;
-    margin: 20px 0 0 ;
-    padding: 10px 0; 
-    }
+
+/* Navigation Syles */
+nav {
+  text-align: center;
+}
 
 
-    nav ul{
-      list-style: none;
-      margin: 0 2px;
-      padding: 0;
-      
-    }
-    
-    nav li {
-       display: inline;
-       padding: 20px 20px;
-       background-color: rgba(74, 102, 226, 0.849);
-       border-radius: 8px;
-       box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
-       border: 2.5px solid rgb(0, 0, 0);
-    
-    }
-    
-    nav a {
-      font-weight: normal;
-      padding: 10px 5px;
-      font-size: 30px;
-      color: white;
-      text-decoration: none;
-    }
+nav ul {
+  list-style: none;
+}
 
+nav a {
+  font-weight: normal;
+  padding: 10px 5px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  width: 15%;
+  display: block;
+  float: left;
+  background-color: rgba(74, 102, 226, 0.849);
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
+  border: 2.5px solid rgb(0, 0, 0);
+  margin: 20px 20px;
   
-      nav a:hover {
-        background-color: #555555;
-    
+}
 
-      }
-       
-      nav a.active {
-        background-color: #fff;
-        color: #444;
-        cursor: default;
-      }
+.bottomlinks a {
+  display: block;
+  float: left;
+  width: 20%;
+}
 
-      p {
-        vertical-align: baseline;
-      }
+nav a:hover {
+  background-color: #555555;
 
-      p {
-          text-align: center;
-          background-color: rgba(74, 102, 226, 0.849);
-          border-radius: 10px;
-          font-size: 20px;
-          color: rgb(255, 255, 255);
-          background-repeat: repeat; 
-          width: 1200px;
-          box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
-          border: 2.5px solid rgb(0, 0, 0);
-    
-          
-      }
 
-      h1 {
-        color: rgb(85, 85, 207);
-        text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
-        text-align: center;
-        font-size: 40px;
-      }
+}
 
+nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+
+/* Paragraph Styles */
+p {
+  vertical-align: baseline;
+}
+
+p {
+  text-align: center;
+  background-color: rgba(74, 102, 226, 0.849);
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-repeat: repeat;
+  width: 960px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
+  border: 2.5px solid rgb(0, 0, 0);
+
+
+}
+
+
+/* Header Styles */
+h1 {
+  color: rgb(85, 85, 207);
+  text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
+  text-align: center;
+  font-size: 40px;
+}
