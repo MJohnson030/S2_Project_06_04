@@ -22,6 +22,7 @@ html {
 
 /* Body Styles */
 body {
+  border-radius: 30px;
   margin: 0px auto;
   max-width: 960px;
   min-width: 640px;
@@ -29,8 +30,8 @@ body {
   background-color: rgb(109, 120, 129);
   text-align: center;
   box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.63);
-  background-image: radial-gradient(  rgba(240, 245, 200, 0.253) 30%, rgb(253, 253, 253) 80%);
-  /* border: 2.5px solid rgb(0, 0, 0); */
+  background-image: radial-gradient(  rgba(200, 235, 245, 0.253) 30%, rgb(253, 253, 253) 80%);
+  border: 7px solid rgb(0, 0, 0); 
 }
 
 body > header img#logo {
@@ -40,6 +41,8 @@ body > header img#logo {
 
 img#photo_nine {
   align: center;
+  transform: rotateX(180deg); 
+  transform: rotateY(180deg);
 }
 
 
@@ -96,12 +99,13 @@ p {
 
 p {
   text-align: center;
-  background-color: rgba(74, 102, 226, 0.849);
+  background-color: rgba(74, 102, 226, 0.616);
   border-radius: 10px;
   font-size: 20px;
   color: rgb(255, 255, 255);
   background-repeat: repeat;
-  width: 960px;
+  line-height: 30px;
+  width: 947px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
   border: 2.5px solid rgb(0, 0, 0);
 
@@ -115,5 +119,5 @@ h1 {
   text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
   text-align: center;
   font-size: 40px;
-  Padding: 40px 10px 10px 10px;
+  Padding: 40px 10px 20px 10px;
 }
