@@ -19,6 +19,8 @@ html {
   background-image: linear-gradient(-90deg, rgb(141, 216, 194) 15%, rgba(59, 128, 192, 0.849) 50%);
 }
 
+/* Added font family and set the background image of html to a linear gradient angle -90 degrees. */
+
 
 /* Body Styles */
 body {
@@ -39,13 +41,9 @@ body > header img#logo {
   width: 100%;
 }
 
-img#photo_nine {
-  align: center;
-  transform: rotateX(180deg); 
-  transform: rotateY(180deg);
-}
 
-
+/* Set the border radius of the body to 30px which rounded the corners. Setting the margin to 0px auto centered everything inside the body. Added a radial gradient inside the  */
+/* centered the logo by adding an ID selector to the image and setting the width to 100 percent. */
 /* Navigation Syles */
 nav {
   text-align: center;
@@ -73,6 +71,11 @@ nav a {
   
 }
 
+/* aligned the  navigation to the center. Setting the list style to none got rid of the underlines. Added 
+padding, and increased the font size. The border radius rounded the borners. The background color was set to 
+blue. A box shadow was added to give a 3D effect and a thin solid border was added to bolden the nav. The color 
+is white. */
+
 .bottomlinks a {
   display: block;
   float: left;
@@ -91,6 +94,7 @@ nav a.active {
   cursor: default;
 }
 
+/* The hover effect was added in order to make the nav turn grey whenever the mouse hovered over it.  */
 
 /* Paragraph Styles */
 p {
@@ -111,7 +115,10 @@ p {
 
 
 }
-
+/* Same styles from the nav were added to the paragaph but a few changes were made. The line height was increased,
+and the border of the paragraph element is little bit thicker. The h1 element has the text color set to blue, a text shadow
+and padding around all four sides. The text is aligned to the center just like everything else but the font size is increased 
+drastically and the text shadow extends a little further. */
 
 /* Header Styles */
 h1 {
